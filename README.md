@@ -3,7 +3,7 @@
 
 Things To Be Done
 
-1. Frontend Development (Developing)
+1. Frontend Development (Page Made Adding Style)
 HTML/CSS: For structuring and styling your application’s interface.
 JavaScript Framework: A framework like React.js, Angular, or Vue.js for a dynamic user interface.
 State Management: Tools like Redux or Context API for state management in React (if using React).
