@@ -14,6 +14,48 @@ body, html {
     height: 100%;
   }
   
+/* Light mode styles (default) */
+body {
+  background-color: #f7f9fb; /* light background */
+  color: #333; /* dark text color */
+}
+
+/* ... other light mode styles ... */
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #121212; /* dark background */
+  color: #ffffff; /* light text color */
+}
+
+.dark-mode .App-header {
+  background-color: #1a1a1a; /* darker header background */
+}
+
+/* ... other dark mode overrides ... */
+/* App.css */
+
+/* Default light theme styles */
+body {
+  background-color: #f7f9fb;
+  color: #333;
+  /* ... other styles ... */
+}
+
+/* Dark theme overrides */
+.dark-mode {
+  background-color: #121212; /* dark background for body */
+  color: #ffffff; /* light text for body */
+}
+
+.dark-mode .App-header {
+  background-color: #333; /* dark background for header */
+  /* ... other header styles for dark mode ... */
+}
+
+/* ... other dark mode specific styles ... */
+
+
 /* App-header with gradient and shadow */
 .App-header {
     background-image: linear-gradient(to right, #6dd5ed, #2193b0); /* Blue gradient */
