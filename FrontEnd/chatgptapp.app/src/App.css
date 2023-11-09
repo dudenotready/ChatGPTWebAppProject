@@ -1,0 +1,287 @@
+/* App-wide styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #f7f9fb;
+    color: #333;
+  }
+  
+  /* Main App container */
+  .App {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+/* App-header with gradient and shadow */
+.App-header {
+    background-image: linear-gradient(to right, #6dd5ed, #2193b0); /* Blue gradient */
+    padding: 1rem 0;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* subtle shadow for depth */
+    position: relative; /* Position relative for pseudo-elements */
+  }
+
+  /* In App.css */
+.App-logo {
+  height: 100px; /* Adjust the size as needed */
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+  /* Chat container styles */
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    max-width: 800px;
+    height: 80vh;
+    margin: 1rem auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Message list styles */
+  .message-list {
+    overflow-y: auto;
+    padding: 1rem;
+    flex-grow: 1;
+  }
+  
+  .message {
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    padding: 0.6rem 1rem;
+    border-radius: 18px;
+    display: inline-block;
+    max-width: 80%;
+  }
+  
+  /* Differentiate between incoming and outgoing messages */
+  .message-incoming {
+    background: #eceff1;
+    align-self: flex-start;
+  }
+  
+  .message-outgoing {
+    background: #007bff;
+    color: white;
+    align-self: flex-end;
+  }
+  
+  /* Input bar styles */
+  .input-bar {
+    display: flex;
+    padding: 1rem;
+    border-top: 1px solid #eceff1;
+  }
+  
+  .input-bar input {
+    flex-grow: 1;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-right: 0.5rem;
+  }
+  
+  .input-bar button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Scrollbar styles for message list */
+  .message-list::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .message-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .message-list::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  .message-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .chat-container {
+      width: 95%;
+      height: 90vh;
+    }
+  
+    .message {
+      max-width: 70%;
+    }
+  }
+.chat-container {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    max-width: 800px;
+    height: 80vh;
+    margin: 1rem auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+        .chat-container {
+            display: flex;
+        .chat-container {
+            flex-direction: column;
+            justify-content: flex-end;
+            max-width: 800px;
+            height: 80vh;
+            margin: 1rem auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+            max-width: 800px;
+            height: 80vh;
+            margin: 1rem auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+
+        .chat-container {
+            justify-content: flex-end;
+            max-width: 800px;
+            height: 80vh;
+            margin: 1rem auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+.someClass {
+    justify-content: flex-end;
+    max-width: 800px;
+    height: 80vh;
+    margin: 1rem auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+        .chat-container {
+            max-width: 800px;
+            height: 80vh;
+            margin: 1rem auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+     
+    
+    /* Message list styles */
+    .message-list {
+        overflow-y: auto;
+        padding: 1rem;
+        flex-grow: 1;
+    }
+    
+    .message {
+        margin-bottom: 0.5rem;
+        line-height: 1.4;
+        padding: 0.6rem 1rem;
+        border-radius: 18px;
+        display: inline-block;
+        max-width: 80%;
+    }
+    
+    /* Differentiate between incoming and outgoing messages */
+    .message-incoming {
+        background: #eceff1;
+        align-self: flex-start;
+    }
+    
+    .message-outgoing {
+        background: #007bff;
+        color: white;
+        align-self: flex-end;
+    }
+    
+    /* Input bar styles */
+    .input-bar {
+        display: flex;
+        padding: 1rem;
+        border-top: 1px solid #eceff1;
+    }
+    
+    .input-bar input {
+        flex-grow: 1;
+        padding: 0.5rem 1rem;
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        margin-right: 0.5rem;
+    }
+    
+    .input-bar button {
+        padding: 0.5rem 1rem;
+        background-color: #007bff;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .input-bar button:hover {
+        background-color: #0056b3;
+    }
+    
+    /* Scrollbar styles for message list */
+    .message-list::-webkit-scrollbar {
+        width: 5px;
+    }
+    
+    .message-list::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    
+    .message-list::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+    
+    .message-list::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+    
+    /* Responsive design */
+    @media (max-width: 768px) {
+        .chat-container {
+            width: 95%;
+            height: 90vh;
+        }
+    
+        .message {
+            max-width: 70%;
+        }
+    }
